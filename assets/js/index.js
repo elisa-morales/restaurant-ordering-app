@@ -11,7 +11,7 @@ document.addEventListener("click", function(e) {
         addItemToCart(e.target.dataset.id)        
     } else if (e.target.dataset.remove) {
         removeItemFromCart(e.target.dataset.remove)
-    } else if (e.target.dataset.btn) {
+    } else if (order.length > 0 && e.target.dataset.btn) {
         card.style.display = 'inline'
     } else if (e.target.dataset.close) {
         card.style.display = 'none'
