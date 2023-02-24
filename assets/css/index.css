@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;400;700&family=Smythe&family=Proza+Libre&display=swap");
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 375px;
+    font-family: "Smythe", cursive;
+    padding: 0;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+h3 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+button {
+    font-family: 'Proza Libre', sans-serif;
+    font-size: 14px;
+}
+
+#cart-btn,
+#pay-btn {
+    width: 100%;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #16DB99;
+    border: none;
+    border-radius: 3px;
+    padding: 18px;
+    margin-top: 20px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+}
+
+header {
+    height: 167px;
+    margin: auto;
+    background-image: url(/assets/img/burger-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+}
+
+.header-title {
+    height: 100%;
+    padding: 20px;
+}
+
+main {
+    padding: 0 15px 15px;
+    margin: auto;
+}
+
+.item-wrapper {
+    display: flex;
+    width: 100%;
+    margin: 30px 0 30px 0;
+}
+
+.item-emoji {
+    font-size: 60px;
+    width: 95px;
+    text-align: center;
+}
+
+.item-name,
+.item.price {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.item-ingredients,
+.remove-item {
+    color: #8B8B8B;
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: 200;
+}
+
+.item-btn {
+    width: 40px;
+    height: 40px;
+    font-size: 32px;
+    font-weight: 200;
+    line-height: 100%;
+    color: #3c3c3c;
+    background-color: #ffffff;
+    border: 1px solid #dedede;
+    border-radius: 50%;
+    margin: 10px 0 0 auto;
+    padding: 0;
+    cursor: pointer;
+}
+
+  hr {
+    border: 1px solid #dedede;
+}
+
+.cart {
+    margin: 30px 0 0 0;
+}
+
+.cart-single-item,
+.cart-total-price,
+.item-name {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0 5px 0;
+}
+
+.cart-total-price {
+    padding: 15px 0;
+}
+
+.remove-item {
+    margin-left: 5px;
+}
+
+.close-modal-btn-container {
+    text-align: right;
+}
+
+.modal-close-btn {
+    font-size: 22px;
+    font-weight: bold;
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+    color: #8B8B8B;
+    cursor: pointer;
+}
+
+.card-details {
+    display: none;
+    position: fixed;
+    background-color: #ffffff;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 90%;
+    max-width: 400px;
+    height: fit-content;
+    border-radius: 4px;
+    filter: drop-shadow(5.18654px 5.18654px 255.437px rgba(0, 0, 0, 0.8));
+    padding: 15px 15px 30px 15px;
+}
+
+.enter-details {
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+}
+
+input {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #dedede;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    font-family: 'Proza Libre', sans-serif;
+    font-size: 14px;
+}
+
+#pay-btn {
+    margin-top: 10px;
+}
+
+.order-message{
+    font-size: 23px;
+    text-align: center;
+    background-color: #ECFDF5;
+    color: #065F46;
+    padding: 30px;
+    border-radius: 3px; 
+    margin-top: 20px;
+}

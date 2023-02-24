@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="title" content="Restaurant Ordering app">
+        <meta name="description" content="Scrimba solo project | Restaurant Ordering app.">
+        <meta name="keywords" content="restaurant, ordering app, scrimba solo project">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta name="author" content="Elisa Morales">
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+       <link rel="stylesheet" href="assets/css/index.css">
+    </head>
+    <body>
+        
+        <header>
+            <div class="header-title">
+            <h1>Jimmy's Diner</h1>
+            <h2>The best burgers and pizzas in town.</h2>
+            </div>
+        </header>
+        
+        <main>
+        <div class="menu" id="menu"></div>
+        <div class="cart" id="cart"></div>
+        
+            <div class="card-details" id="card-details">
+                <div class="close-modal-btn-container">
+                    <button class="modal-close-btn" id="modal-close-btn" data-close="button">X</button>
+                </div>
+                <h1 class="enter-details">Enter Card Details</h1>                    
+                <form class="form" id="form">
+                    <input type="text" placeholder="Enter Card Name" name="card-name" required>
+                    <input type="text" placeholder="Enter Card Number" name="card-number" required>
+                    <input type="text" placeholder="Enter CVV" name="card-cvv" required>      
+                    <button 
+                        type="submit" 
+                        class="pay-btn" 
+                        id="pay-btn">
+                        Pay
+                    </button>              
+                </form>
+            </div>
+            <div class="order-coming-message" id="order-coming-message"></div>
+    
+	<script src="/assets/js/index.js" type="module"></script>
+    
+    </body>
+</html>
+
